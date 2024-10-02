@@ -6,29 +6,22 @@ import Website from "../../assets/images/socials/portfolio.png";
 const socials = [
   {
     id: 1,
-    href: "https://github.com/catherineisonline/pizza-time-with-react",
+    href: "https://github.com/muhammedmokbel/pizza-app",
     img: Github,
-    name: Github
+    name: Github,
   },
   {
     id: 2,
-    href: "https://www.linkedin.com/in/catherinemitagvaria/",
+    href: "https://www.linkedin.com/in/mohamed-mokbel-33573a140/",
     img: Linkedin,
-    name: Linkedin
+    name: Linkedin,
   },
-  {
-    id: 3,
-    href: "https://ekaterine-mitagvaria.vercel.app/",
-    img: Website,
-    name: Website
-  }
 ];
 
 const FooterSocials = () => {
-
   return (
     <ul className="footer__socials">
-      {socials.map(social =>
+      {socials.map((social) => (
         <li key={social.id}>
           <a
             href={social.href}
@@ -37,12 +30,18 @@ const FooterSocials = () => {
             aria-label={social.name}
           >
             <span aria-hidden="true">{social.name}</span>
-            <img src={social.img} alt="" aria-hidden="true" width={50}
-              height={50} />
+            <img
+              src={social.img}
+              alt=""
+              aria-hidden="true"
+              width={50}
+              height={50}
+            />
           </a>
-        </li>)}
+        </li>
+      ))}
     </ul>
   );
-}
+};
 
-export default FooterSocials
+export default FooterSocials;

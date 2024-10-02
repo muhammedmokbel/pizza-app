@@ -1,4 +1,4 @@
-# Pizza Time
+# Pizza App
 
 ![Pizza Time preview](https://github.com/muhammedmokbel/pizza-app/blob/main/src/assets/images/project-preview.png?raw=true)
 
@@ -9,7 +9,7 @@ Pizza Time: A delicious online experience. I designed and developed an e-commerc
 
 Live Version:
 
-[Pizza Time](https://muhammed-mokbel-pizza-app.vercel.app/)
+[Pizza App](https://muhammed-mokbel-pizza-app.vercel.app/)
 
 An e-commerce platform tailored for the gastronomy industry. I led end-to-end design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
 
