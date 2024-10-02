@@ -1,15 +1,15 @@
 # Pizza Time
 
-![Pizza Time preview](https://github.com/catherineisonline/pizza-time-with-react/blob/main/src/assets/images/project-preview.png?raw=true)
+![Pizza Time preview](https://github.com/muhammedmokbel/pizza-app/blob/main/src/assets/images/project-preview.png?raw=true)
 
 Pizza Time: A delicious online experience. I designed and developed an e-commerce platform for this pizza restaurant, featuring an interactive menu with a variety of options including pizza, sushi, and pasta. Simplifying the online ordering process and providing a seamless user experience was the key goal of this project.
 
-[![GitHub license](https://img.shields.io/github/license/catherineisonline/pizza-time-with-react)](https://github.com/catherineisonline/travel-with-catherine/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/catherineisonline/pizza-time-with-react)](https://github.com/catherineisonline/travel-with-catherine/issues)
+[![GitHub license](https://img.shields.io/github/license/catherineisonline/pizza-time-with-react)](https://github.com/muhammedmokbel/pizza-app/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/muhammedmokbel/pizza-app)](https://github.com/muhammedmokbel/pizza-app/issues)
 
 Live Version:
 
-[Pizza Time](https://pizza-time-with-react.vercel.app/)
+[Pizza Time](https://muhammed-mokbel-pizza-app.vercel.app/)
 
 An e-commerce platform tailored for the gastronomy industry. I led end-to-end design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
 
@@ -25,12 +25,6 @@ Employed React Paginate for user-friendly menu page division, optimizing explora
 🆔 Efficient Data Management:
 UUID for unique ID generation ensures robust menu item and order identification. React Lazy Load optimizes image/component loading, boosting site performance.
 
-💾 Data Integrity with Turso:
-Implemented libSQL client for a reliable database backend, securing transactions and user data. Turso ensures scalable SQLite database operations.
-
-🛒 Streamlined Ordering via Express.js:
-Developed Express.js-based ordering system for smooth cart management, item addition/removal, and quantity updates.
-
 👤 Personalized User Interaction:
 Enabled user registration, login, and profile management. Users modify and delete profiles, enhancing customization.
 
@@ -42,8 +36,6 @@ Pizza Time brings together delicious food and advanced technology, creating a us
 ## Contents
 
 - [Getting Started with Create React App](#gettingStarted)
-- [Instructions](#instructions)
-- [Database](#database)
 - [Available Scripts](#scripts)
 - [Goals](#goals)
 - [User Story](#userStory)
@@ -62,22 +54,6 @@ To get started you need to:
 2. npm install
 3. Install listed dependencies
 4. Use available scripts, like npm start
-
-## Instructions <a id="instructions"></a>
-
-- When you fork or download the project install node modules using npm install and then any additional dependencies you don't have from <a id="dependencies">Dependencies</a> list
-
-- Next, you need to create the file name .env located outside the src file
-
-- In the .env file I am using several variables:
-
-1. REACT_APP_TURSO_DB_URL, REACT_APP_TURSO_DB_TOKEN & MYSQL_ATTR_SSL_CA - these variables contain information that will connect you to the Turso database. You can use the following [documentation](https://docs.turso.tech/sdk/ts/quickstart). If you use any other database you need to use the according information to connect to that database. The token can be created after registration.
-   Note that the table for users in my case is named "users" and contains the following data: id | email | password | fullname | address | number.
-2. REACT_APP_USERS_URL - this is a url for Node.js server. First, it's better to run it locally and only then switch to whatever you want. If you want to run the server locally the value of this variable should be http://localhost:3000/users. In this project I set up backend using Vercel. You can google "How to Deploy Your Node.js Backend Project to Vercel" and set up your own backend.
-3. REACT_APP_CAPTCHA_URL - the same logic works for this backedn url which this time is used for captcha verification. Locally, the url value should be http://localhost:3000/verify-recaptcha.
-4. REACT_APP_CAPTCHA_KEY & REACT_APP_CAPTCHA_SECRET - both values can be found once you create an account for reCaptcha at https://www.google.com/recaptcha/about/. Please use their documentation for better understanding.
-
-- Once you set up the variables, you can run the server on one port, if you use local server and the website on another port.
 
 ## Available Scripts <a id="scripts"></a>
 
@@ -116,8 +92,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Database <a id="database"></a>
-
 To use the registration functionality for your own project, you need to use your own database. You can use any SQL database you wish and you adapt it to this project. I am using [Turso](https://turso.tech/) database. To have your own database you need to register and set it up by provided information. I recommend you to use their [documentation](https://docs.turso.tech/sdk/ts/quickstart).
 
 ## Goals <a id="goals"></a>
@@ -140,8 +114,6 @@ I want to be able to sort the menu by categories, as well as be able to find som
 - [Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
 - [React Lazy Load](https://www.npmjs.com/package/react-lazy-load-image-component)
 - [Framer Motion](https://www.framer.com/motion/)
-- [MySQL2](https://www.npmjs.com/package/mysql2)
-- [libsql](https://www.npmjs.com/package/@libsql/client)
 
 ## Resources <a id="resources"></a>
 
@@ -156,11 +128,11 @@ I want to be able to sort the menu by categories, as well as be able to find som
 
 ## Contribution <a id="contribution"></a>
 
-This project serves as a personal portfolio website to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to message me, send me a message via a contact form on the website, or submit an idea in the [discussions](https://github.com/catherineisonline/pizza-time-with-react/discussions). Otherwise, you are free to fork this project and change it for your own purposes.
+This project serves as a personal portfolio website to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to message me, send me a message via a contact form on the website, or submit an idea in the [discussions](https://github.com/muhammedmokbel/pizza-app/discussions). Otherwise, you are free to fork this project and change it for your own purposes.
 
 ## License <a id="license"></a>
 
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/pizza-time-with-react/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
+This project is released under the MIT [LICENSE](https://github.com/muhammedmokbel/pizza-app/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
 
 #### Build Your Portfolio:
 
